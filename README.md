@@ -14,7 +14,7 @@ We assume that we already have the project finished and we want to publish it.
 If you have to do this it is often convenient to add a script. I have this script in my package.json file:<br>
   `"scripts": {
     "dev": "parcel src/index.html --open",`<br>
-    `"build": "parcel build src/index.html -d build --public-url /BattleGame/",`<br>
+    `"build": "parcel build src/index.html -d build --public-url /your-repo-name/",`<br>
     `"deploy": "git subtree push --prefix build origin gh-pages"`<br>
   `}`
   
